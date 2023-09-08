@@ -22,19 +22,25 @@
 
 
 <!-- addtask is for adding the new task in todo list -->
+<div>
 <form class="form-inline" action ="/addtask" method="POST">
     
     <div class="form-group mx-sm-3 mb-2">
        
       
       <input type="text" class="form-control"  placeholder="add new task" name="newtask">
+      <button type="submit"  class="btn btnRound btn-primary mb-2">Add</button>
     </div>
-    <button type="submit" class="btn btn-primary mb-2">Add Task</button>
+
+    
+   
 
 </form>
+</div>
 
 
 <!-- This shows about added task -->
+<div style="margin-bottom: 200px;">
 <h2 class="grad"> Added Task </h2>
 <form action="/removetask" method="post">
 <ol>
@@ -43,8 +49,9 @@
 <% } %>
 </ol>
 
-<button class="btn btn-danger" type="submit" id="top"> Remove </button>
+<button class="btn btnRound btn-danger" style="margin-left: 825px;"  type="submit" id="top"> Del </button>
 </form>
+</div>
 
 <h2> Completed task </h2>
 <ol>
