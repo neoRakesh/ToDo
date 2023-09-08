@@ -1,0 +1,6 @@
+.grad {
+    background-image: linear-gradient(to right, red , yellow);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+  }
